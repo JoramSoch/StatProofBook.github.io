@@ -4,7 +4,7 @@ title: "Proofs without Source"
 ---
 
 
-### Missing source (192 proofs)
+### Missing source (195 proofs)
 
 - [Accuracy and complexity for the univariate Gaussian](/P/ug-anc)
 - [Accuracy and complexity for the univariate Gaussian with known variance](/P/ugkv-anc)
@@ -14,7 +14,7 @@ title: "Proofs without Source"
 - [Binomial distribution is a special case of multinomial distribution](/P/bin-mult)
 - [Chi-squared distribution is a special case of gamma distribution](/P/chi2-gam)
 - [Combined posterior distribution for Bayesian linear regression when analyzing conditionally independent data sets](/P/blr-postind)
-- [Combined posterior distributions in terms of individual posterior distributions obtained from conditionally independent data](/P/post-ind)
+- [Combined posterior distributions in terms of individual posterior distributions obtained from conditionally independent data](/P/post-indcond)
 - [Conditional distributions of the normal-gamma distribution](/P/ng-cond)
 - [Construction of unbiased estimator for variance in multiple linear regression](/P/resvar-unbp)
 - [Covariance and variance of the normal-gamma distribution](/P/ng-cov)
@@ -64,6 +64,7 @@ title: "Proofs without Source"
 - [F-statistics in terms of ordinary least squares estimates in two-way analysis of variance](/P/anova2-fols)
 - [Full width at half maximum for the von Mises distribution](/P/vm-fwhm)
 - [Gamma distribution is a special case of Wishart distribution](/P/gam-wish)
+- [Invariance of the covariance under addition of constants](/P/cov-inv)
 - [Joint likelihood is the product of likelihood function and prior density](/P/jl-lfnprior)
 - [Kullback-Leibler divergence for the Bernoulli distribution](/P/bern-kl)
 - [Kullback-Leibler divergence for the continuous uniform distribution](/P/cuni-kl)
@@ -72,6 +73,7 @@ title: "Proofs without Source"
 - [Kullback-Leibler divergence for the normal distribution](/P/norm-kl)
 - [Linear combination of independent normal random variables](/P/norm-lincomb)
 - [Linear transformation theorem for the matrix-normal distribution](/P/matn-ltt)
+- [Linearity of the sample mean](/P/meansamp-lin)
 - [Log Bayes factor for Bayesian linear regression](/P/blr-lbf)
 - [Log Bayes factor for binomial observations](/P/bin-lbf)
 - [Log Bayes factor for multinomial observations](/P/mult-lbf)
@@ -174,6 +176,7 @@ title: "Proofs without Source"
 - [Relationship between signal-to-noise ratio and maximum log-likelihood](/P/snr-mll)
 - [Relationship between signal-to-noise ratio and R²](/P/snr-rsq)
 - [Scaling of a random variable following the gamma distribution](/P/gam-scal)
+- [Scaling of the covariance upon multiplication with constants](/P/cov-scal)
 - [Simple linear regression is a special case of multiple linear regression](/P/slr-mlr)
 - [Skewness of the ex-Gaussian distribution](/P/exg-skew)
 - [Skewness of the exponential distribution](/P/exp-skew)
