@@ -11,7 +11,7 @@ title: "Invariance of the sample correlation under linear transformation"
 chapter: "General Theorems"
 section: "Probability theory"
 topic: "Correlation"
-theorem: "Invariance under linear transformation"
+theorem: "Invariance of the sample correlation"
 
 sources:
   - authors: "Ostwald D, Soch J"

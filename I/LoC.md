@@ -187,7 +187,7 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Invariance under linear transformation](/P/corr-inv)**
 - *[Sample correlation coefficient](/D/corr-samp)*
 - **[Relationship to standard scores](/P/corrsamp-z)**
-- **[Invariance under linear transformation](/P/corrsamp-inv)**
+- **[Invariance of the sample correlation](/P/corrsamp-inv)**
 - *[Conditional correlation](/D/corr-cond)*
 - *[Partial correlation](/D/corr-part)*
 - *[Correlation matrix](/D/corrmat)*
