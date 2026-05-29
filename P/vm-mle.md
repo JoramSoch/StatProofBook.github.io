@@ -53,7 +53,7 @@ with the [zeroth- and first-order modified Bessel function of the first kind](/D
 $$ \label{eq:I0-I1}
 \begin{split}
 I_0(\kappa) &= \frac{1}{2\pi} \int_0^{2\pi} \exp \left[ \kappa \cos(x) \right] \, \mathrm{d}x \\ \text{and} \quad
-I_1(\kappa) &= \frac{\mathrm{d}}{\mathrm{d}\kappa} I_0(\kappa)
+I_1(\kappa) &= \frac{\mathrm{d}}{\mathrm{d}\kappa} I_0(\kappa) \; .
 \end{split}
 $$
 
@@ -64,7 +64,7 @@ $$ \label{eq:vm-yi}
 p(y_i|\mu,\kappa) = \mathrm{vM}(y_i; \mu, \kappa) = \frac{1}{\sqrt{2 \pi} I_0(\kappa)} \cdot \exp \left[ \kappa \cos(y_i-\mu) \right]
 $$
 
-and because observations are [independent](/D/ind), the likelihood function for all observations is the product of the individual ones:
+and because observations are [independent](/D/ind), the likelihood function for all observations [is equal to the product](/P/prob-ind) of the individual ones:
 
 $$ \label{eq:vm-LF}
 p(y|\mu,\kappa) = \prod_{i=1}^n p(y_i|\mu, \kappa) = \left( \frac{1}{\sqrt{2 \pi} I_0(\kappa)} \right)^n \cdot \exp \left[ \kappa \sum_{i=1}^n \cos(y_i-\mu) \right] \; .
