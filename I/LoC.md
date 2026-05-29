@@ -115,7 +115,6 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - *[Cumulant-generating function](/D/cgf)*
 ### Expected value
 - *[Definition](/D/mean)*
-- *[Sample mean](/D/mean-samp)*
 - **[Non-negative random variable](/P/mean-nnrvar)**
 - **[Non-negativity](/P/mean-nonneg)**
 - **[Linearity](/P/mean-lin)**
@@ -129,6 +128,8 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Chebyshev's inequality](/P/cheb-ineq)**
 - **[Weak law of large numbers](/P/mean-wlln)**
 - **[Expected value minimizes squared error](/P/mean-mse)**
+- *[Sample mean](/D/mean-samp)*
+- **[Linearity of the sample mean](/P/meansamp-lin)**
 - *[Circular expected value](/D/mean-circ)*
 - **[Circular sample mean](/P/meancirc-samp)**
 - *[Expected value of a random vector](/D/mean-rvec)*
@@ -161,6 +162,8 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Symmetry](/P/cov-symm)**
 - **[Self-covariance](/P/cov-var)**
 - **[Covariance under independence](/P/cov-ind)**
+- **[Invariance under addition](/P/cov-inv)**
+- **[Scaling upon multiplication](/P/cov-scal)**
 - **[Law of total covariance](/P/cov-tot)**
 - **[Relationship to correlation](/P/cov-corr)**
 ### Covariance matrix
@@ -179,10 +182,12 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Precision matrix and correlation matrix](/P/precmat-corrmat)**
 ### Correlation
 - *[Definition](/D/corr)*
-- *[Sample correlation coefficient](/D/corr-samp)*
 - **[Range](/P/corr-range)**
 - **[Correlation under independence](/P/corr-ind)**
+- **[Invariance under linear transformation](/P/corr-inv)**
+- *[Sample correlation coefficient](/D/corr-samp)*
 - **[Relationship to standard scores](/P/corr-z)**
+- **[Invariance under linear transformation](/P/corrsamp-inv)**
 - *[Conditional correlation](/D/corr-cond)*
 - *[Partial correlation](/D/corr-part)*
 - *[Correlation matrix](/D/corrmat)*
