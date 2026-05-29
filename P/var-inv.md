@@ -30,7 +30,7 @@ username: "JoramSoch"
 **Theorem:** The [variance](/D/var) is invariant under addition of a [constant](/D/const):
 
 $$ \label{eq:var-inv}
-\mathrm{Var}(X+a) = \mathrm{Var}(X)
+\mathrm{Var}(X+a) = \mathrm{Var}(X) \; .
 $$
 
 
@@ -44,7 +44,8 @@ Using this and the [linearity of the expected value](/P/mean-lin), we can derive
 
 $$ \label{eq:var-inv-qed}
 \begin{split}
-\mathrm{Var}(X+a) &\overset{\eqref{eq:var}}{=} \mathrm{E}\left[ ((X+a)-\mathrm{E}(X+a))^2 \right] \\
+   \mathrm{Var}(X+a)
+&\overset{\eqref{eq:var}}{=} \mathrm{E}\left[ ((X+a)-\mathrm{E}(X+a))^2 \right] \\
 &= \mathrm{E}\left[ (X + a - \mathrm{E}(X) - a)^2 \right] \\
 &= \mathrm{E}\left[ (X-\mathrm{E}(X))^2 \right] \\
 &\overset{\eqref{eq:var}}{=} \mathrm{Var}(X) \; . \\

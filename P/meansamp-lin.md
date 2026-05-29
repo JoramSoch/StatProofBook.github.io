@@ -34,7 +34,7 @@ $$ \label{eq:mean-samp-lin}
 $$
 
 
-**Proof:** The [sample mean](/D/samp-mean) is defined as
+**Proof:** The [sample mean](/D/mean-samp) is defined as
 
 $$ \label{eq:mean-samp}
 \bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_i \; .

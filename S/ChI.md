@@ -24,7 +24,7 @@ shortcut: "ChI"
 | Variance | *[var](/D/var)*<br>*[var-samp](/D/var-samp)* | **[var-nonneg](/P/var-nonneg)**<br>**[var-const](/P/var-const)**<br>**[var-inv](/P/var-inv)**<br>**[var-scal](/P/var-scal)**<br>**[var-sum](/P/var-sum)**<br>**[var-lincomb](/P/var-lincomb)**<br>**[var-add](/P/var-add)** | **[var-mean](/P/var-mean)** | **[var-tot](/P/var-tot)** |
 | Skewness | *[skew](/D/skew)*<br>*[skew-samp](/D/skew-samp)* |  | **[skew-mean](/P/skew-mean)** |  |
 | Covariance | *[cov](/D/cov)*<br>*[cov-samp](/D/cov-samp)*<br>*[covmat](/D/covmat)*<br>*[covmat-samp](/D/covmat-samp)*<br>*[covmat-cross](/D/covmat-cross)* | **[cov-ind](/P/cov-ind)**<br>**[cov-symm](/P/cov-symm)**<br>**[covmat-inv](/P/covmat-inv)**<br>**[covmat-scal](/P/covmat-scal)**<br>**[covmat-sum](/P/covmat-sum)**<br>**[covmat-symm](/P/covmat-symm)**<br>**[covmat-psd](/P/covmat-psd)** | **[cov-mean](/P/cov-mean)**<br>**[cov-var](/P/cov-var)**<br>**[cov-corr](/P/cov-corr)**<br>**[covmat-mean](/P/covmat-mean)**<br>**[covmat-corrmat](/P/covmat-corrmat)** | **[cov-tot](/P/cov-tot)** |
-| Correlation | *[corr](/D/corr)*<br>*[corr-samp](/D/corr-samp)*<br>*[corrmat](/D/corrmat)*<br>*[corrmat-samp](/D/corrmat-samp)* | **[corr-range](/P/corr-range)** | **[corr-z](/P/corr-z)** |  |
+| Correlation | *[corr](/D/corr)*<br>*[corr-samp](/D/corr-samp)*<br>*[corrmat](/D/corrmat)*<br>*[corrmat-samp](/D/corrmat-samp)* | **[corr-range](/P/corr-range)** | **[corrsamp-z](/P/corrsamp-z)** |  |
 | Median | *[med](/D/med)* |  |  |  |
 | Mode | *[mode](/D/mode)* |  |  |  |
 | Standard deviation | *[std](/D/std)* |  |  |  |
@@ -46,6 +46,6 @@ shortcut: "ChI"
 | Statistical hypotheses | *[hyp](/D/hyp)*<br>*[hyp-simp](/D/hyp-simp)*<br>*[hyp-point](/D/hyp-point)*<br>*[hyp-tail](/D/hyp-tail)* |  |  |  |
 | Hypothesis testing | *[test](/D/test)*<br>*[h0](/D/h0)*<br>*[h1](/D/h1)*<br>*[test-tail](/D/test-tail)*<br>*[tstat](/D/tstat)*<br>*[size](/D/size)*<br>*[power](/D/power)*<br>*[alpha](/D/alpha)*<br>*[cval](/D/cval)*<br>*[pval](/D/pval)* |  |  | **[pval-h0](/P/pval-h0)** |
 | **Bayesian statistics** |  |  |  |  |
-| Probabilistic modeling | *[gm](/D/gm)*<br>*[lf](/D/lf)*<br>*[prior](/D/prior)*<br>*[fpm](/D/fpm)*<br>*[jl](/D/jl)*<br>*[post](/D/post)*<br>*[map](/D/map)*<br>*[ml](/D/ml)* |  | **[jl-lfnprior](/P/jl-lfnprior)**<br>**[post-jl](/P/post-jl)**<br>**[ml-jl](/P/ml-jl)** | **[post-ind](/P/post-ind)** |
+| Probabilistic modeling | *[gm](/D/gm)*<br>*[lf](/D/lf)*<br>*[prior](/D/prior)*<br>*[fpm](/D/fpm)*<br>*[jl](/D/jl)*<br>*[post](/D/post)*<br>*[map](/D/map)*<br>*[ml](/D/ml)* |  | **[jl-lfnprior](/P/jl-lfnprior)**<br>**[post-jl](/P/post-jl)**<br>**[ml-jl](/P/ml-jl)** | **[post-indcond](/P/post-indcond)** |
 | Prior distributions | *[prior-flat](/D/prior-flat)*<br>*[prior-uni](/D/prior-uni)*<br>*[prior-inf](/D/prior-inf)*<br>*[prior-emp](/D/prior-emp)*<br>*[prior-conj](/D/prior-conj)*<br>*[prior-maxent](/D/prior-maxent)*<br>*[prior-eb](/D/prior-eb)*<br>*[prior-ref](/D/prior-ref)* |  |  |  |
 | Bayesian inference | *[eb](/D/eb)*<br>*[vb](/D/vb)* |  |  | **[bayes-th](/P/bayes-th)**<br>**[bayes-rule](/P/bayes-rule)** |

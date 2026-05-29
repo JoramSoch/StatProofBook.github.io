@@ -73,7 +73,7 @@ $$ \label{eq:corr-samp-inv-s1}
 \end{split}
 $$
 
-Since $(a c)/(|a| |c|)$ is either $+1$ oder $-1$, we have
+Since $(a c)/(\lvert a \rvert \lvert c \rvert)$ is either $+1$ oder $-1$, we have
 
 $$ \label{eq:corr-samp-inv-s2}
 |r_{\tilde{x}\tilde{y}}| = |r_{xy}| \; .

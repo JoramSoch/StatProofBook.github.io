@@ -30,7 +30,12 @@ username: "JoramSoch"
 **Definition:** The correlation of two [random variables](/D/rvar) $X$ and $Y$, also called Pearson product-moment correlation coefficient (PPMCC), is defined as the ratio of the [covariance](/D/cov) of $X$ and $Y$ relative to the product of their [standard deviations](/D/std):
 
 $$ \label{eq:corr}
-\mathrm{Corr}(X,Y) = \frac{\sigma_{XY}}{\sigma_X \sigma_Y} = \frac{\mathrm{Cov}(X,Y)}{\sqrt{\mathrm{Var}(X)} \sqrt{\mathrm{Var}(Y)}} = \frac{\mathrm{E}\left[ (X-\mathrm{E}[X]) (Y-\mathrm{E}[Y]) \right]}{\sqrt{\mathrm{E}\left[ (X-\mathrm{E}[X])^2 \right]} \sqrt{\mathrm{E}\left[ (Y-\mathrm{E}[Y])^2 \right]}} \; .
+\begin{split}
+   \mathrm{Corr}(X,Y)
+&= \frac{\sigma_{XY}}{\sigma_X \sigma_Y} \\
+&= \frac{\mathrm{Cov}(X,Y)}{\sqrt{\mathrm{Var}(X)} \sqrt{\mathrm{Var}(Y)}} \\
+&= \frac{\mathrm{E}\left[ (X-\mathrm{E}(X)) (Y-\mathrm{E}(Y)) \right]}{\sqrt{\mathrm{E}\left[ (X-\mathrm{E}(X))^2 \right]} \sqrt{\mathrm{E}\left[ (Y-\mathrm{E}(Y))^2 \right]}} \; .
+\end{split}
 $$
 
 Two random variables are called uncorrelated, if $\mathrm{Corr}(X,Y) = 0$.

@@ -27,7 +27,7 @@ username: "JoramSoch"
 ---
 
 
-**Definition:** Let $X$ be a continuous [random variable](/D/rvar) with a unimodal [probability density function](/D/pdf) $f_X(x)$ and [mode](/D/mode) $x_M$. Then, the full width at half maximum of $X$ is defined as
+**Definition:** Let $X$ be a [continuous](/D/rvar-disc) [random variable](/D/rvar) with a [unimodal](/D/dist-uni) [probability density function](/D/pdf) $f_X(x)$ and [mode](/D/mode) $x_M$. Then, the full width at half maximum of $X$ is defined as
 
 $$ \label{eq:FWHM}
 \mathrm{FHWM}(X) = \Delta x = x_2 - x_1

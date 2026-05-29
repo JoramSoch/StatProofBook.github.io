@@ -186,7 +186,7 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Correlation under independence](/P/corr-ind)**
 - **[Invariance under linear transformation](/P/corr-inv)**
 - *[Sample correlation coefficient](/D/corr-samp)*
-- **[Relationship to standard scores](/P/corr-z)**
+- **[Relationship to standard scores](/P/corrsamp-z)**
 - **[Invariance under linear transformation](/P/corrsamp-inv)**
 - *[Conditional correlation](/D/corr-cond)*
 - *[Partial correlation](/D/corr-part)*
@@ -310,7 +310,7 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - **[Joint likelihood is product of likelihood and prior](/P/jl-lfnprior)**
 - *[Posterior distribution](/D/post)*
 - **[Posterior density is proportional to joint likelihood](/P/post-jl)**
-- **[Combined posterior distribution from independent data](/P/post-ind)**
+- **[Combined posterior distribution from independent data](/P/post-indcond)**
 - *[Posterior predictive distribution](/D/post-pred)*
 - **[Posterior predictive distribution is marginal of joint likelihood](/P/postpred-jl)**
 - *[Maximum-a-posteriori estimation](/D/map)*

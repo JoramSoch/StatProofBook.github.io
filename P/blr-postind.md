@@ -37,7 +37,7 @@ $$ \label{eq:GLM-NG-prior}
 p(\beta,\tau) = \mathcal{N}(\beta; \mu_0, (\tau \Lambda_0)^{-1}) \cdot \mathrm{Gam}(\tau; a_0, b_0) \; .
 $$
 
-Then, the [combined posterior distribution](/P/post-ind) from observing these [conditionally independent data sets](/D/ind-cond) is also given by a [normal-gamma distribution](/D/ng)
+Then, the [combined posterior distribution](/P/post-indcond) from observing these [conditionally independent data sets](/D/ind-cond) is also given by a [normal-gamma distribution](/D/ng)
 
 $$ \label{eq:GLM-NG-post}
 p(\beta,\tau|y) = \mathcal{N}(\beta; \mu_n, (\tau \Lambda_n)^{-1}) \cdot \mathrm{Gam}(\tau; a_n, b_n)
@@ -180,4 +180,4 @@ b_n = b_n^{(S)} &= b_0 + \frac{1}{2} \left( \sum_{i=1}^S y_i^\mathrm{T} P_i y_i 
 \end{split}
 $$
 
-This result is also compatible with the [general theorem about combined posterior distributions in terms of individual posterior distributions](/P/post-ind) when analyzing independent data sets.
+This result is also compatible with the [general theorem about combined posterior distributions in terms of individual posterior distributions](/P/post-indcond) when analyzing independent data sets.
