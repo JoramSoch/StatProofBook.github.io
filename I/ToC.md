@@ -144,27 +144,28 @@ title: "Table of Contents"
    <p id="Expected value"></p>
    1.12. Expected value <br>
    &emsp;&ensp; 1.12.1. *[Definition](/D/mean)* <br>
-   &emsp;&ensp; 1.12.2. *[Sample mean](/D/mean-samp)* <br>
-   &emsp;&ensp; 1.12.3. **[Non-negative random variable](/P/mean-nnrvar)** <br>
-   &emsp;&ensp; 1.12.4. **[Non-negativity](/P/mean-nonneg)** <br>
-   &emsp;&ensp; 1.12.5. **[Linearity](/P/mean-lin)** <br>
-   &emsp;&ensp; 1.12.6. **[Monotonicity](/P/mean-mono)** <br>
-   &emsp;&ensp; 1.12.7. **[(Non-)Multiplicativity](/P/mean-mult)** <br>
-   &emsp;&ensp; 1.12.8. **[Law of total expectation](/P/mean-tot)** <br>
-   &emsp;&ensp; 1.12.9. **[Law of the unconscious statistician](/P/mean-lotus)** <br>
-   &emsp;&ensp; 1.12.10. **[Squared expectation of a product](/P/mean-prodsqr)** <br>
-   &emsp;&ensp; 1.12.11. **[Jensen's inequality](/P/jens-ineq)** <br>
-   &emsp;&ensp; 1.12.12. **[Markov's inequality](/P/mark-ineq)** <br>
-   &emsp;&ensp; 1.12.13. **[Chebyshev's inequality](/P/cheb-ineq)** <br>
-   &emsp;&ensp; 1.12.14. **[Weak law of large numbers](/P/mean-wlln)** <br>
-   &emsp;&ensp; 1.12.15. **[Expected value minimizes squared error](/P/mean-mse)** <br>
-   &emsp;&ensp; 1.12.16. *[Circular expected value](/D/mean-circ)* <br>
-   &emsp;&ensp; 1.12.17. **[Circular sample mean](/P/meancirc-samp)** <br>
-   &emsp;&ensp; 1.12.18. *[Expected value of a random vector](/D/mean-rvec)* <br>
-   &emsp;&ensp; 1.12.19. **[Expectation of a quadratic form](/P/mean-qf)** <br>
-   &emsp;&ensp; 1.12.20. **[Expectation of a bilinear form](/P/mean-blf)** <br>
-   &emsp;&ensp; 1.12.21. *[Expected value of a random matrix](/D/mean-rmat)* <br>
-   &emsp;&ensp; 1.12.22. **[Expectation of a trace](/P/mean-tr)** <br>
+   &emsp;&ensp; 1.12.2. **[Non-negative random variable](/P/mean-nnrvar)** <br>
+   &emsp;&ensp; 1.12.3. **[Non-negativity](/P/mean-nonneg)** <br>
+   &emsp;&ensp; 1.12.4. **[Linearity](/P/mean-lin)** <br>
+   &emsp;&ensp; 1.12.5. **[Monotonicity](/P/mean-mono)** <br>
+   &emsp;&ensp; 1.12.6. **[(Non-)Multiplicativity](/P/mean-mult)** <br>
+   &emsp;&ensp; 1.12.7. **[Law of total expectation](/P/mean-tot)** <br>
+   &emsp;&ensp; 1.12.8. **[Law of the unconscious statistician](/P/mean-lotus)** <br>
+   &emsp;&ensp; 1.12.9. **[Squared expectation of a product](/P/mean-prodsqr)** <br>
+   &emsp;&ensp; 1.12.10. **[Jensen's inequality](/P/jens-ineq)** <br>
+   &emsp;&ensp; 1.12.11. **[Markov's inequality](/P/mark-ineq)** <br>
+   &emsp;&ensp; 1.12.12. **[Chebyshev's inequality](/P/cheb-ineq)** <br>
+   &emsp;&ensp; 1.12.13. **[Weak law of large numbers](/P/mean-wlln)** <br>
+   &emsp;&ensp; 1.12.14. **[Expected value minimizes squared error](/P/mean-mse)** <br>
+   &emsp;&ensp; 1.12.15. *[Sample mean](/D/mean-samp)* <br>
+   &emsp;&ensp; 1.12.16. **[Linearity of the sample mean](/P/meansamp-lin)** <br>
+   &emsp;&ensp; 1.12.17. *[Circular expected value](/D/mean-circ)* <br>
+   &emsp;&ensp; 1.12.18. **[Circular sample mean](/P/meancirc-samp)** <br>
+   &emsp;&ensp; 1.12.19. *[Expected value of a random vector](/D/mean-rvec)* <br>
+   &emsp;&ensp; 1.12.20. **[Expectation of a quadratic form](/P/mean-qf)** <br>
+   &emsp;&ensp; 1.12.21. **[Expectation of a bilinear form](/P/mean-blf)** <br>
+   &emsp;&ensp; 1.12.22. *[Expected value of a random matrix](/D/mean-rmat)* <br>
+   &emsp;&ensp; 1.12.23. **[Expectation of a trace](/P/mean-tr)** <br>
    
    <p id="Variance"></p>
    1.13. Variance <br>
@@ -196,8 +197,10 @@ title: "Table of Contents"
    &emsp;&ensp; 1.15.4. **[Symmetry](/P/cov-symm)** <br>
    &emsp;&ensp; 1.15.5. **[Self-covariance](/P/cov-var)** <br>
    &emsp;&ensp; 1.15.6. **[Covariance under independence](/P/cov-ind)** <br>
-   &emsp;&ensp; 1.15.7. **[Law of total covariance](/P/cov-tot)** <br>
-   &emsp;&ensp; 1.15.8. **[Relationship to correlation](/P/cov-corr)** <br>
+   &emsp;&ensp; 1.15.7. **[Invariance under addition](/P/cov-inv)** <br>
+   &emsp;&ensp; 1.15.8. **[Scaling upon multiplication](/P/cov-scal)** <br>
+   &emsp;&ensp; 1.15.9. **[Law of total covariance](/P/cov-tot)** <br>
+   &emsp;&ensp; 1.15.10. **[Relationship to correlation](/P/cov-corr)** <br>
    
    <p id="Covariance matrix"></p>
    1.16. Covariance matrix <br>
@@ -218,14 +221,16 @@ title: "Table of Contents"
    <p id="Correlation"></p>
    1.17. Correlation <br>
    &emsp;&ensp; 1.17.1. *[Definition](/D/corr)* <br>
-   &emsp;&ensp; 1.17.2. *[Sample correlation coefficient](/D/corr-samp)* <br>
-   &emsp;&ensp; 1.17.3. **[Range](/P/corr-range)** <br>
-   &emsp;&ensp; 1.17.4. **[Correlation under independence](/P/corr-ind)** <br>
-   &emsp;&ensp; 1.17.5. **[Relationship to standard scores](/P/corr-z)** <br>
-   &emsp;&ensp; 1.17.6. *[Conditional correlation](/D/corr-cond)* <br>
-   &emsp;&ensp; 1.17.7. *[Partial correlation](/D/corr-part)* <br>
-   &emsp;&ensp; 1.17.8. *[Correlation matrix](/D/corrmat)* <br>
-   &emsp;&ensp; 1.17.9. *[Sample correlation matrix](/D/corrmat-samp)* <br>
+   &emsp;&ensp; 1.17.2. **[Range](/P/corr-range)** <br>
+   &emsp;&ensp; 1.17.3. **[Correlation under independence](/P/corr-ind)** <br>
+   &emsp;&ensp; 1.17.4. **[Invariance under linear transformation](/P/corr-inv)** <br>
+   &emsp;&ensp; 1.17.5. *[Sample correlation coefficient](/D/corr-samp)* <br>
+   &emsp;&ensp; 1.17.6. **[Relationship to standard scores](/P/corrsamp-z)** <br>
+   &emsp;&ensp; 1.17.7. **[Invariance of the sample correlation](/P/corrsamp-inv)** <br>
+   &emsp;&ensp; 1.17.8. *[Conditional correlation](/D/corr-cond)* <br>
+   &emsp;&ensp; 1.17.9. *[Partial correlation](/D/corr-part)* <br>
+   &emsp;&ensp; 1.17.10. *[Correlation matrix](/D/corrmat)* <br>
+   &emsp;&ensp; 1.17.11. *[Sample correlation matrix](/D/corrmat-samp)* <br>
    
    <p id="Measures of central tendency"></p>
    1.18. Measures of central tendency <br>
@@ -380,7 +385,7 @@ title: "Table of Contents"
    &emsp;&ensp; 5.1.8. **[Joint likelihood is product of likelihood and prior](/P/jl-lfnprior)** <br>
    &emsp;&ensp; 5.1.9. *[Posterior distribution](/D/post)* <br>
    &emsp;&ensp; 5.1.10. **[Posterior density is proportional to joint likelihood](/P/post-jl)** <br>
-   &emsp;&ensp; 5.1.11. **[Combined posterior distribution from independent data](/P/post-ind)** <br>
+   &emsp;&ensp; 5.1.11. **[Combined posterior distribution from independent data](/P/post-indcond)** <br>
    &emsp;&ensp; 5.1.12. *[Posterior predictive distribution](/D/post-pred)* <br>
    &emsp;&ensp; 5.1.13. **[Posterior predictive distribution is marginal of joint likelihood](/P/postpred-jl)** <br>
    &emsp;&ensp; 5.1.14. *[Maximum-a-posteriori estimation](/D/map)* <br>

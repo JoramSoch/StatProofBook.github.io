@@ -30,7 +30,7 @@ username: "JoramSoch"
 **Theorem:** The [variance](/D/var) scales upon multiplication with a [constant](/D/const):
 
 $$ \label{eq:var-scal}
-\mathrm{Var}(aX) = a^2 \, \mathrm{Var}(X)
+\mathrm{Var}(aX) = a^2 \, \mathrm{Var}(X) \; .
 $$
 
 
@@ -44,7 +44,8 @@ Using this and the [linearity of the expected value](/P/mean-lin), we can derive
 
 $$ \label{eq:var-scal-qed}
 \begin{split}
-\mathrm{Var}(aX) &\overset{\eqref{eq:var}}{=} \mathrm{E}\left[ ((aX)-\mathrm{E}(aX))^2 \right] \\
+   \mathrm{Var}(aX)
+&\overset{\eqref{eq:var}}{=} \mathrm{E}\left[ ((aX)-\mathrm{E}(aX))^2 \right] \\
 &= \mathrm{E}\left[ (aX - a\mathrm{E}(X))^2 \right] \\
 &= \mathrm{E}\left[ (a [X - \mathrm{E}(X)])^2 \right] \\
 &= \mathrm{E}\left[ a^2 (X - \mathrm{E}(X))^2 \right] \\

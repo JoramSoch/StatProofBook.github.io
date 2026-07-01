@@ -304,7 +304,7 @@ title: "Proof by Number"
 | P296 | matn-kl | [Kullback-Leibler divergence for the matrix-normal distribution](/P/matn-kl) | JoramSoch | 2021-12-02 |
 | P297 | matn-samp | [Sampling from the matrix-normal distribution](/P/matn-samp) | JoramSoch | 2021-12-07 |
 | P298 | mean-tr | [Expected value of the trace of a matrix](/P/mean-tr) | JoramSoch | 2021-12-07 |
-| P299 | corr-z | [Correlation coefficient in terms of standard scores](/P/corr-z) | JoramSoch | 2021-12-14 |
+| P299 | corrsamp-z | [Sample correlation in terms of standard scores](/P/corrsamp-z) | JoramSoch | 2021-12-14 |
 | P300 | corr-range | [Correlation always falls between -1 and +1](/P/corr-range) | JoramSoch | 2021-12-14 |
 | P301 | bern-var | [Variance of the Bernoulli distribution](/P/bern-var) | JoramSoch | 2022-01-20 |
 | P302 | bin-var | [Variance of the binomial distribution](/P/bin-var) | JoramSoch | 2022-01-20 |
@@ -418,7 +418,7 @@ title: "Proof by Number"
 | P410 | duni-ent | [Entropy of the discrete uniform distribution](/P/duni-ent) | JoramSoch | 2023-08-11 |
 | P411 | duni-maxent | [Discrete uniform distribution maximizes entropy for finite support](/P/duni-maxent) | JoramSoch | 2023-08-18 |
 | P412 | cuni-maxent | [Continuous uniform distribution maximizes differential entropy for fixed range](/P/cuni-maxent) | JoramSoch | 2023-08-25 |
-| P413 | post-ind | [Combined posterior distributions in terms of individual posterior distributions obtained from conditionally independent data](/P/post-ind) | JoramSoch | 2023-09-01 |
+| P413 | post-indcond | [Combined posterior distributions in terms of individual posterior distributions obtained from conditionally independent data](/P/post-indcond) | JoramSoch | 2023-09-01 |
 | P414 | lme-mean | [Equivalence of operations for model evidence and log model evidence](/P/lme-mean) | JoramSoch | 2023-09-08 |
 | P415 | lfe-approx | [Approximation of log family evidences based on log model evidences](/P/lfe-approx) | JoramSoch | 2023-09-15 |
 | P416 | bvn-pdf | [Probability density function of the bivariate normal distribution](/P/bvn-pdf) | JoramSoch | 2023-09-22 |
@@ -543,3 +543,8 @@ title: "Proof by Number"
 | P535 | vm-fwhm | [Full width at half maximum for the von Mises distribution](/P/vm-fwhm) | JoramSoch | 2026-04-21 |
 | P536 | vm-bvn | [Relationship between bivariate normal distribution and von Mises distribution](/P/vm-bvn) | JoramSoch | 2026-04-22 |
 | P537 | vm-mle | [Maximum likelihood estimation for univariate von Mises data](/P/vm-mle) | JoramSoch | 2026-04-23 |
+| P538 | meansamp-lin | [Linearity of the sample mean](/P/meansamp-lin) | JoramSoch | 2026-05-28 |
+| P539 | cov-inv | [Invariance of the covariance under addition of constants](/P/cov-inv) | JoramSoch | 2026-05-28 |
+| P540 | cov-scal | [Scaling of the covariance upon multiplication with constants](/P/cov-scal) | JoramSoch | 2026-05-28 |
+| P541 | corr-inv | [Invariance of the correlation under linear transformation](/P/corr-inv) | JoramSoch | 2026-05-28 |
+| P542 | corrsamp-inv | [Invariance of the sample correlation under linear transformation](/P/corrsamp-inv) | JoramSoch | 2026-05-29 |
