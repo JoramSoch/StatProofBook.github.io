@@ -895,6 +895,10 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - *[Log Bayes factor](/D/lbf)*
 - **[Derivation of the log Bayes factor](/P/lbf-der)**
 - **[Calculation from log model evidences](/P/lbf-lme)**
+- *[Group Bayes factor](/D/gbf)*
+- *[Group log Bayes factor](/D/glbf)*
+- **[Derivation of the group Bayes factor](/P/gbf-der)**
+- **[Derivation of the group log Bayes factor](/P/glbf-der)**
 ### Posterior model probability
 - *[Definition](/D/pmp)*
 - **[Derivation](/P/pmp-der)**
@@ -905,3 +909,10 @@ Templates: **[Proof](/P/-temp-)** – *[Definition](/D/-temp-)*
 - *[Definition](/D/bma)*
 - **[Derivation](/P/bma-der)**
 - **[Calculation from log model evidences](/P/bma-lme)**
+### Random-effects Bayesian model selection
+- *[Definition](/D/bmsrfx)*
+- **[Variational Bayesian estimation](/P/bmsrfx-vb)**
+- *[Expected frequencies](/D/expfreq)*
+- *[Likeliest frequencies](/D/expfreq)*
+- *[Exceedance probabilities](/D/excprob)*
+- **[Posterior frequencies](/P/bmsrfx-freqpost)**
